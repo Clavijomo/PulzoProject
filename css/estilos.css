@@ -1,0 +1,117 @@
+/*Section-Nav*/
+*{
+	font-family: sans-serif;
+}
+.barra{
+	background-color: #000;
+	padding: 15px;
+}
+.text-barra{
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.section-father{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.son-three{
+	width: 25%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+/*Main*/
+.sub-nacion{
+	color: #038652;
+	font-size: 12px;
+	font-weight: bold;
+}
+.text-new{
+	font-size: 2.125rem;
+	font-weight: 700;
+	color: #000;
+}
+.parr-new{
+	font-family: italic;
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+	line-height: 1.5rem;
+}
+.father-section-new-two{
+	display: flex;
+	justify-content: space-around;
+}
+.section-mini-new{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+}
+.text-new-two{
+	font-size: 16px;
+	font-weight: 700;
+}
+.section-father-new-three{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.mini-new{
+	width: 55%;
+}
+/*Sección covid*/
+.father-covid{
+	border: 2px solid rgb(0 0 0 / 13%);
+	border-radius: 0.5rem;
+}
+.text-covid{
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+.section-covid{
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mini-section-covid{
+	display: flex;
+	justify-content: space-between;
+}
+.mini-covid{
+	display: flex;
+	justify-content: space-around;
+}
+.father-covid-one{
+	width: 32.5%;
+	border: 2px solid rgb(0 0 0 / 13%);
+	border-bottom: 3px solid rgb(47, 0, 255);
+	border-radius: 0.7rem 0.7rem 0rem 0;
+}
+.father-covid-two{
+	width: 32.5%;
+	border: 2px solid rgb(0 0 0 / 13%);
+	border-bottom: 3px solid rgb(224, 44, 44);
+	border-radius: 0.7rem 0.7rem 0rem 0;
+}
+.father-covid-three{
+	width: 32.5%;
+	border: 2px solid rgb(0 0 0 / 13%);
+	border-bottom: 3px solid rgb(55, 161, 33);
+	border-radius: 0.7rem 0.7rem 0rem 0;
+}
+.section-notice{
+	display: flex;
+}
+/*Pauta*/
+.text-pauta{
+	width: 90%;
+	font-size: 31px;
+	font-weight: bold;
+	line-height: 2rem;
+	letter-spacing: -1px;
+}
